@@ -6,7 +6,7 @@
   "require": {
     "illuminate/container": "5.2.*",
     "concrete5/core": "dev-develop",
-    "concrete5/community_translation": "dev-master",
+    "concrete5/community_translation": "~0.1.0",
     "composer/installers": "dev-master",
     "portlandlabs/addon_concrete5_theme": "^1.0"
   },
