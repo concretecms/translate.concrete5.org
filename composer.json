@@ -1,0 +1,43 @@
+{
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "illuminate/container": "5.2.*",
+    "concrete5/core": "dev-develop",
+    "concrete5/community_translation": "dev-master",
+    "composer/installers": "dev-master",
+    "portlandlabs/addon_concrete5_theme": "^1.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "public/packages/{$name}/": ["type:concrete5-package"],
+      "public/application/blocks/{$name}/": ["type:concrete5-block"],
+      "public/application/themes/{$name}/": ["type:concrete5-theme"],
+      "public/concrete/": ["type:concrete5-core"]
+    }
+  },
+  "repositories": {
+    "addon_concrete5_theme": {
+      "type": "package",
+      "package": {
+        "name": "portlandlabs/addon_concrete5_theme",
+        "version": "1.0.0",
+        "source": {
+          "url": "git@bitbucket.org:portlandlabs/addon_concrete5_theme.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "ln -sf \"`pwd`/vendor/portlandlabs/addon_concrete5_theme/packages/concrete5_theme\" ./public/packages"
+    ],
+    "post-install-cmd": [
+      "ln -sf \"`pwd`/vendor/portlandlabs/addon_concrete5_theme/packages/concrete5_theme\" ./public/packages"
+    ]
+  }
+}

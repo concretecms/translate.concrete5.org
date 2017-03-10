@@ -1,0 +1,7 @@
+/vendor/
+/public/concrete/
+/public/packages/*
+/public/application/files/cache/
+/public/application/files/tmp/
+composer.lock
+.idea
