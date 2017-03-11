@@ -25,7 +25,7 @@
         "name": "portlandlabs/addon_concrete5_theme",
         "version": "1.0.0",
         "source": {
-          "url": "git@bitbucket.org:portlandlabs/addon_concrete5_theme.git",
+          "url": "https://bitbucket.org/portlandlabs/addon_concrete5_theme.git",
           "type": "git",
           "reference": "master"
         }
