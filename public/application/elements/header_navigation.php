@@ -8,7 +8,7 @@
                     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".documentation-navbar-collapse">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a href="https://www.concrete5.org/" class="header-logo"><img src="<?=$view->getThemePath()?>/images/logo.png" style="width: 160px">
+                    <a href="<?=DIR_REL?>/" class="header-logo"><img src="<?=$view->getThemePath()?>/images/logo.png" style="width: 160px">
                     <span><?=t('translate')?></span></a>
                 </div>
                 <nav class="collapse navbar-collapse documentation-navbar-collapse">
