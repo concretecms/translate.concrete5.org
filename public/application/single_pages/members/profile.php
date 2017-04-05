@@ -211,7 +211,7 @@ try {
                             $totalTranslations,
                             h($profile->getUserName())
                         )
-                        .
+                        . ' ' .
                         t2(
                             '(%d of which is a currently approved translation)',
                             '(%d of which are currently approved translations)',
