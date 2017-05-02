@@ -8,7 +8,8 @@
     "concrete5/core": "dev-develop",
     "concrete5/community_translation": "@stable",
     "composer/installers": "dev-master",
-    "portlandlabs/addon_concrete5_theme": "^1.0"
+    "portlandlabs/addon_concrete5_theme": "^1.0",
+    "vlucas/phpdotenv": "^2.4"
   },
   "extra": {
     "installer-paths": {
