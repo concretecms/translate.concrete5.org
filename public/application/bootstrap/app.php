@@ -63,3 +63,12 @@
  *
  * ----------------------------------------------------------------------------
  */
+
+$class = \Concrete\Core\Http\ServerInterface::class;
+if ($app->resolved($class) && $server = $app->make($class)) {
+    $server->addMiddleware(new \Concrete5\Translate\Http\TimingMiddleware(), 100);
+} else {
+    $app->resolving($class, function(\Concrete\Core\Http\ServerInterface $server) {
+        $server->addMiddleware(new \Concrete5\Translate\Http\TimingMiddleware(), 100);
+    });
+}

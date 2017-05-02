@@ -3,6 +3,11 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Concrete5\\Translate\\": "src"
+    }
+  },
   "require": {
     "illuminate/container": "5.2.*",
     "concrete5/core": "dev-develop",
