@@ -21,8 +21,11 @@ class TimingMiddleware implements MiddlewareInterface
         $response = $frame->next($request);
         $end = microtime(true);
 
-        $body = $response->getContent();
-        $body = str_replace('{{ RENDER_TOTAL }}', $this->getTimeString($start, $end), $body);
+        if (!$response->headers->has('Content-Type') || strpos($response->headers->get('Content-Type'), 'text/html') === 0) {
+            $body = $response->getContent();
+            $body = str_replace('{{ RENDER_TOTAL }}', $this->getTimeString($start, $end), $body);
+            $response->setContent($body);
+        }
 
         return $response->setContent($body);
     }
