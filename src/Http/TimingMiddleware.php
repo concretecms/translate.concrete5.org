@@ -27,7 +27,7 @@ class TimingMiddleware implements MiddlewareInterface
             $response->setContent($body);
         }
 
-        return $response->setContent($body);
+        return $response;
     }
 
     /**
