@@ -4,7 +4,7 @@
     <div class="lines">
         <div class="container">
             <div class="row">
-                <div clas="span12">
+                <div class="span12">
                     <img src="/packages/concrete5_theme/themes/concrete5/images/footer_trees.png"/>
                 </div>
             </div>
