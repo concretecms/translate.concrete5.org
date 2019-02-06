@@ -10,7 +10,7 @@
   },
   "require": {
     "illuminate/container": "5.2.*",
-    "concrete5/core": "dev-develop",
+    "concrete5/core": "dev-develop#d9866681076466f17ee398987934344315af1eca",
     "concrete5/community_translation": "@stable",
     "composer/installers": "dev-master",
     "portlandlabs/addon_concrete5_theme": "^1.0",
