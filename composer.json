@@ -13,6 +13,7 @@
     "concrete5/core": "dev-develop#ae91fad960a4a08f1be916b438d2035924d56fdf",
     "concrete5/community_translation": "@stable",
     "composer/installers": "dev-master",
+    "mlocati/concrete5-translation-library": "^1.6.0",
     "portlandlabs/addon_concrete5_theme": "^1.0",
     "vlucas/phpdotenv": "^2.4"
   },
