@@ -18,6 +18,7 @@
     "composer/installers": "dev-master",
     "concrete5/community_translation": "@stable",
     "concrete5/core": "dev-develop#ae91fad960a4a08f1be916b438d2035924d56fdf",
+    "doctrine/persistence": "^1",
     "illuminate/container": "5.2.*",
     "mlocati/concrete5-translation-library": "^1.6.0",
     "portlandlabs/addon_concrete5_theme": "^1.0",
