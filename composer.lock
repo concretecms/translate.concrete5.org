@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d743defdefd11a7f1c2c37f800e16bce",
+    "content-hash": "81b7cd04fc40eca7bd595345af9bd30f",
     "packages": [
         {
             "name": "anahkiasen/html-object",
@@ -246,16 +246,16 @@
         },
         {
             "name": "concrete5/community_translation",
-            "version": "0.6.13",
+            "version": "0.6.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/concrete5/addon_community_translation.git",
-                "reference": "157df1e8da3144e51e61c495c7464f8d54ec77a4"
+                "reference": "d4cce21965e0545aa06b18b851a4a451c5c24a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/concrete5/addon_community_translation/zipball/157df1e8da3144e51e61c495c7464f8d54ec77a4",
-                "reference": "157df1e8da3144e51e61c495c7464f8d54ec77a4",
+                "url": "https://api.github.com/repos/concrete5/addon_community_translation/zipball/d4cce21965e0545aa06b18b851a4a451c5c24a7e",
+                "reference": "d4cce21965e0545aa06b18b851a4a451c5c24a7e",
                 "shasum": ""
             },
             "type": "concrete5-package",
@@ -265,7 +265,7 @@
             ],
             "description": "concrete5 translation package",
             "homepage": "https://github.com/concrete5/addon_community_translation",
-            "time": "2020-05-28T10:44:06+00:00"
+            "time": "2020-08-25T22:27:28+00:00"
         },
         {
             "name": "concrete5/core",
@@ -7460,7 +7460,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "composer/installers": 20,
-        "concrete5/community_translation": 0,
         "concrete5/core": 20
     },
     "prefer-stable": true,
