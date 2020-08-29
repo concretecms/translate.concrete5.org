@@ -17,7 +17,7 @@
   },
   "require": {
     "composer/installers": "dev-master",
-    "concrete5/community_translation": "@stable",
+    "concrete5/community_translation": "^0.6.14",
     "concrete5/core": "dev-8.6.x-dev#ae91fad960a4a08f1be916b438d2035924d56fdf",
     "doctrine/persistence": "^1",
     "illuminate/container": "5.2.*",
