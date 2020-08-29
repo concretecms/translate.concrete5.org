@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "460630cdc8752cdbe0cb0806e3b4e8fa",
+    "content-hash": "d743defdefd11a7f1c2c37f800e16bce",
     "packages": [
         {
             "name": "anahkiasen/html-object",
@@ -269,7 +269,7 @@
         },
         {
             "name": "concrete5/core",
-            "version": "dev-develop",
+            "version": "dev-8.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/concrete5/concrete5-core.git",
@@ -288,6 +288,7 @@
                 "concrete5/oauth-user-data": "~1.0",
                 "concrete5/zend-queue": "0.9.*",
                 "dapphp/securimage": "3.*",
+                "doctrine/common": "^2",
                 "doctrine/dbal": "~2.5",
                 "doctrine/migrations": "1.* <1.8",
                 "doctrine/orm": "~2.5",
@@ -371,7 +372,7 @@
                 "concrete5",
                 "concreteCMS"
             ],
-            "time": "2020-05-22T21:37:01+00:00"
+            "time": "2019-05-17T22:10:17+00:00"
         },
         {
             "name": "concrete5/doctrine-xml",
@@ -3739,12 +3740,12 @@
             "version": "v1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/whiteoctober/Pagerfanta.git",
+                "url": "https://github.com/BabDev/Pagerfanta.git",
                 "reference": "29aade64addfdfb12c05aabf160f09d1aea6b143"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whiteoctober/Pagerfanta/zipball/29aade64addfdfb12c05aabf160f09d1aea6b143",
+                "url": "https://api.github.com/repos/BabDev/Pagerfanta/zipball/29aade64addfdfb12c05aabf160f09d1aea6b143",
                 "reference": "29aade64addfdfb12c05aabf160f09d1aea6b143",
                 "shasum": ""
             },
